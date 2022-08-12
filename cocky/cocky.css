@@ -1,0 +1,136 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: roboto, sans-serif;
+}
+/* styling for the div of the class center to align the h1s and paragraph to the center */
+.center{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* this particular class is to align all the text on the page to the center */
+.middle{
+    text-align: center;
+}
+/* styling for the first h1 */
+.reliable{
+    margin-top: 13%;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+/* styling for the second h1 */
+.power{
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* styling for the paragraph */
+.center p{
+    font-size: 18px;
+}
+/* styling for the card */
+.card-style{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+/* giving different border color */
+.super{
+    border-top: 8px solid cyan;
+}
+.build{
+    border-top: 8px solid red;
+}
+.karma{
+    border-top: 8px solid rgb(255, 174, 0);
+}
+.calculator{
+    border-top: 8px solid rgba(71, 7, 219, 0.61);
+}
+.card-head{
+    background-color: rgba(235, 233, 233, 0.897);
+    padding: 10px 0;
+    padding-left: 20px;
+}
+.card-text{
+    padding-left: 30px;
+    color: rgba(185, 178, 178, 0.897);
+    font-size: 14px;
+}
+.card-image{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+/* want to make the middle coloumn slimmer and finer */
+.middcolon{
+    width: 90%;
+    margin: auto;
+}
+.t1{
+    margin-bottom: 25px;
+}
+/* want to make the divs on the side to go down */
+.side{
+    margin-top: 10%;
+}
+.shrink{
+    width: 95%;
+    margin: auto;
+}
+.footer{
+    margin: 20px 0;
+}
+
+/* MEDIA QUERY */
+@media(max-width: 700px){
+/* styling for the first h1 */
+.reliable{
+    margin-top: 13%;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+/* styling for the second h1 */
+.power{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+/* styling for the paragraph */
+.center p{
+    font-size: 15px;
+}
+/* styling for the card */
+.card-style{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.card-head{
+    padding: 10px 0;
+}
+.card-text{
+    padding-left: 0px;
+}
+.card-image{
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+/* want to make the middle coloumn wider and finer */
+.middcolon, .side{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.t1{
+    margin-bottom: 25px;
+}
+
+.shrink{
+    width: 100%;
+}
+}
