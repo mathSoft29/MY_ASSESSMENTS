@@ -1,0 +1,193 @@
+/* body styles */
+body{
+    background-color: #efefef;
+}
+/* want to make the navbar to be fixed */
+.fix{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: #efefef;
+    border-bottom: 1px solid rgb(231, 223, 223);
+    height: 90px;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.firstT{
+    color: black;
+    margin-top: 5%;
+    background: url(image/software.jpg);
+    padding-bottom: 100px;
+    background-size: cover;
+}
+.shift{
+    margin-left: -20%;
+}
+
+.items{
+    
+    padding: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+.black{
+    color: black;
+}
+.items:hover{
+    background-color: white;
+}
+.icons{
+    display: flex;
+}
+.pic{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 9px;
+}
+.papa{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 48%;
+    margin-bottom: 50px;
+}
+.papa h1{
+    font-weight: 500;
+}
+.software{
+    font-weight: bold;
+}
+.started{
+    margin-top: 30px;
+    background-color: peachpuff;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    font-size: 12px;
+    border-width: 0px;
+}
+.started:hover{
+    background-color: white;
+    transition: ease-in-out 1s;
+    border-width: 0px;
+}
+.right1{
+    width: 65%;
+    border-radius: 15px;
+    padding: 30px 40px 30px 40px;
+    margin: auto;
+    margin-right: 70px;
+    background-color: white;
+}
+.dodo{
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.dodo .pe{
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: grey;
+    margin-left: 40px;
+}
+
+.dodo h1{
+    font-size: 45px;
+}
+.dodo .po{
+    margin: 30px 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.dodo li{
+    margin-bottom: 35px;
+}
+.dodo .free{
+    background-color: #cfedf0;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    font-size: 12px;
+    border-width: 0px;
+}
+.dodo ul{
+    list-style: url(../images/check.png);
+}
+.dodo .free:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 1s;
+    border-width: 0px;
+}
+.number2{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.left1{
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.mymy{
+    width: 370px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 85px;
+}
+
+
+.right1 ul {
+    list-style: none;
+}
+.right1 ul li:before {
+    content: '✓';
+    margin-right: 15px;
+  }
+
+
+@media(max-width: 700px){
+    .fix{
+        margin-top: 0px;
+        padding-top: 0px;
+        height: 100%;
+    }
+    .firstT{
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .firstT{
+        color: black;
+        margin-top: 5%;
+        background: url(image/software.jpg);
+        background-size: contain;
+    }
+
+    .fix{
+        position: fixed;
+        top: 0px;
+        width: 20%;
+        display: flex;
+        background-color: #efefef;
+        border-bottom: 1px solid rgb(231, 223, 223);
+        height: 90px;
+    }
+   
+
+
+}
